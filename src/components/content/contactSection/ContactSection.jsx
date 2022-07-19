@@ -43,7 +43,6 @@ const ContactSection = () => {
     submitProps.resetForm();
 
     const { data, status } = await sendEmail(values);
-    console.log(data, status, 'axios');
 
     if (status !== 200) {
       dispatch(addServerErrorMessage(data.message));

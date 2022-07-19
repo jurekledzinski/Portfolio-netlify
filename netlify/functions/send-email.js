@@ -68,9 +68,6 @@ exports.handler = async function (event) {
   </body>
   </html>`;
 
-  console.log(body, 'BODY');
-  console.log(process.env, 'ENV 1');
-
   let transporter = nodemailer.createTransport({
     host: `${process.env.REACT_APP_HOST_NAME}`,
     port: `${process.env.REACT_APP_PORT_EMAIL}`,
@@ -88,9 +85,6 @@ exports.handler = async function (event) {
     text: 'Message',
     html: output,
   });
-
-  console.log(info, 'INFO');
-  console.log(process.env, 'ENV 2');
 
   if (info.response.includes('250')) {
     return {
