@@ -89,4 +89,15 @@ export const ImagesData = [
       'Imagekit.io, Material UI, Splide.js',
     ],
   },
+  {
+    imgPreview:
+      'https://firebasestorage.googleapis.com/v0/b/portfolio-628b9.appspot.com/o/Houses.png?alt=media&token=ceea6760-3cf8-499c-ada2-075f61ab661b',
+    imgUrl:
+      'https://firebasestorage.googleapis.com/v0/b/portfolio-628b9.appspot.com/o/Houses-slider.jpg?alt=media&token=44e30439-094e-4192-bd1d-01de2dd31818',
+    title: 'Houses',
+    description: 'Create, edit, delete houses ...',
+    gitLink: 'https://github.com/jurekledzinski/houses-app',
+    liveApp: 'https://lambent-concha-f0b55d.netlify.app',
+    usedTech: ['Vue.js', 'Vuex', 'Vue router', 'Mongoose', 'Imagekit.io'],
+  },
 ];
