@@ -26,6 +26,12 @@
 
     @include media-queries(small) {
       padding: 80px 20px 50px 20px;
+      margin: 0 auto;
+    }
+
+    @include media-queries(medium) {
+      padding: 80px 20px 50px 20px;
+      margin: 20px auto 0 auto;
     }
 
     @include media-queries(large) {
