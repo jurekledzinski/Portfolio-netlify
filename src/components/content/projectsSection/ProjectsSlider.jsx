@@ -340,7 +340,7 @@ const ProjectsSlider = () => {
 
   useEffect(() => {
     if (window.innerWidth <= 500) {
-      setIsActive(1);
+      setIsActive(2);
     }
   }, []);
 
